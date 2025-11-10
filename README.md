@@ -35,3 +35,12 @@ pip install pyinstaller psutil
 
 打包命令
 pyinstaller -F -w --name "ACE进程限制工具" ACEPro.py
+
+PowerShell 版本
+
+在 Windows 系统上可以直接运行 `ACEPro.ps1`，脚本会提供与 Python 版本类似的图形界面并自动申请管理员权限。
+执行命令：
+
+```
+PowerShell -ExecutionPolicy Bypass -File .\ACEPro.ps1
+```
